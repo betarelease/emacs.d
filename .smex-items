@@ -1,0 +1,26 @@
+
+;; ----- smex-history -----
+(
+ clojure-jack-in
+ menu-bar-mode
+ load-library
+ eval-buffer
+ package-install
+ menu-bar-open
+ package-refresh-contents
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 2)
+ (eval-buffer . 14)
+ (package-refresh-contents . 1)
+ (clojure-jack-in . 7)
+ (menu-bar-open . 1)
+ (menu-bar-mode . 9)
+ (load-library . 6)
+ (color-theme-select . 5)
+ (color-theme-ir-black . 5)
+ (clojure-mode . 2)
+ (elisp-slime-nav-mode . 1)
+)
